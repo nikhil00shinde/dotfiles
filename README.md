@@ -9,7 +9,7 @@ My personal dotfiles for Fedora Atomic Managed with [GNU Stow](https://www.gnu.o
 | zshrc | Zsh shell config and aliases |
 | nvim | Neovim config |
 | tmux | Tmux config |
-
+| starship | Starship Config |
 ## Install 
 ```
 git clone 
@@ -27,7 +27,10 @@ dotfiles/
 │   └── .config/
 │       └── nvim/
 ├── tmux/
-│   └── .tmux.conf
+│   └── .tmux.config
+├── starship/
+│   └── .config/
+│       └── starship.toml
 └── install.sh
 ```
 

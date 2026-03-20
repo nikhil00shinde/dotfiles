@@ -26,6 +26,7 @@ fi
 rm -r "$HOME/.zshrc"
 rm -rf "$HOME/.config/nvim"
 rm -f "$HOME/.tmux.conf"
+rm -f "$HOME/.config/starship.toml"
 
 echo "Stowing packages..."
 cd "$DOTFILES"
