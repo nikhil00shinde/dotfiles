@@ -1,5 +1,5 @@
 # --- Core --- 
-command = /bin/bash 
+command = /bin/zsh
 
 # --- Theming --- 
 theme = TokyoNight Night
