@@ -1,0 +1,40 @@
+# --- Core --- 
+command = /bin/bash 
+
+# --- Theming --- 
+theme = TokyoNight Night
+
+# --- Fonts & Typography --- 
+font-family = "JetBrainsMono Nerd Font"
+font-size = 16
+
+# Enables beautiful coding ligatures
+font-feature = calt
+font-feature = liga
+
+# --- Transparency & Blur (The Eye Candy) ---
+# Gives you a frosted-glass effect over your desktop
+background-opacity = 0.98
+background-blur-radius = 20
+
+# --- Window Aesthetics ---
+# Adds breathing room around the edges so text isn't cramped
+window-padding-x = 12
+window-padding-y = 12
+window-theme = dark
+window-decoration = true
+
+
+# Sets the width to 110 characters
+window-width = 110
+
+# Sets the height to 30 lines of text
+window-height = 30
+
+# --- Cursor --- 
+cursor-style-blink = true
+cursor-color = #ff00ff
+cursor-style = bar
+
+
+
