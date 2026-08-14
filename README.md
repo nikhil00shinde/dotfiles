@@ -10,6 +10,9 @@ My personal dotfiles for Fedora Atomic Managed with [GNU Stow](https://www.gnu.o
 | nvim | Neovim config |
 | tmux | Tmux config |
 | starship | Starship Config |
+| ghostty | Ghostty terminal emulator config |
+| atuin | Atuin shell history sync config |
+
 ## Install 
 ```
 git clone 
@@ -31,6 +34,14 @@ dotfiles/
 ├── starship/
 │   └── .config/
 │       └── starship.toml
+├── ghostty/
+│   └── .config/
+│       └── ghostty/
+│           └── config
+├── atuin/
+│   └── .config/
+│       └── atuin/
+│           └── config.toml
 └── install.sh
 ```
 
