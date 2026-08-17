@@ -39,11 +39,20 @@ setopt APPEND_HISTORY
 
 # --- Paths ---
 export PATH="$HOME/.local/bin:$PATH"
-
+export SHELL="/usr/bin/zsh"
 # --- Integrations ---
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-eval "$(bluefin-cli init zsh)" # bluefin-cli shell-config
 
 # Atuin must be strictly last, AFTER history is configured
 eval "$(atuin init zsh)"
+
+# --- Eza (ls replacement) Aliases ---
+alias ls="eza --icons=always --color=always"
+alias la="eza -a --icons=always --color=always"
+alias ll="eza -lah --icons=always --color=always --group-directories-first"
+alias lt="eza --tree --level=1 -a --icons=always --color=always"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -10,7 +10,7 @@
 set -e 
 
 DOTFILES="$HOME/dotfiles"
-PACKAGES=(zshrc nvim tmux)
+PACKAGES=(zshrc nvim tmux atuin ghostty)
 
 echo "Starting dotfiles install..."
 
